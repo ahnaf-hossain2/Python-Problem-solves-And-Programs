@@ -1,5 +1,13 @@
-name = "Ahnaf"
+# --------------------------------------------------------------
 
+#it converts an object to string
+str(123) #output: '123'
+
+# It capitalizes the first charachter of each word in string.
+name = "ahnaf hossain"
+print(name.title()) # output: "Ahnaf Hossain"
+
+name = "Ahnaf"
 # It returns the length of the string.
 print(len(name)) # Output: 5
 
