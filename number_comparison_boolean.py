@@ -2,7 +2,8 @@
 # outputs a boolean value indicating whether the first number is 
 # greater than the second number. The program should clearly display 
 # the comparison result using a descriptive message.
-#----------------------------------------------------------------------
+#--------------------------------------------------------------------
+
 
 # taking input of integer numbers for a and b.
 a = int(input("Enter number 1:"))
