@@ -1,5 +1,5 @@
 # Create an interactive coffee shop ordering system that welcomes customers,
-# takes their name, displays a menu, processes their order with quantity, 
+# takes their name, displays a menu, processes their order with quantity,
 # calculates the total, and provides a personalized order confirmation.
 #------------------------------------------------------------------------
 
@@ -27,5 +27,5 @@ total = price * int(quantity)
 # Confirm the order
 # Now quantity and total are integers. So an integer and a string can't be added together
 # So we need to convert them to string.
-print("Sounds good, " + name + "! We'll have your " + str(quantity) 
+print("Sounds good, " + name + "! We'll have your " + str(quantity)
     + " " + order + " coffee ready for you in a moment.\n And your total will be $" + str(total))
