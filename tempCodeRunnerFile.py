@@ -1,6 +1,8 @@
-# taking input of integer numbers for a and b.
-a = int(input("Enter number 1:"))
-b = int(input("Enter number 2:"))
+#This is a comment.
+print("Hello World!")
 
-# It will shpw if a is greater than b is ture or false.
-print("a is greater than b is ", a>b)
+"""
+This is a comment
+written in
+more than just one line
+"""
