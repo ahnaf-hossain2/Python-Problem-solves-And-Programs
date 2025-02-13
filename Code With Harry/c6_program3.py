@@ -7,4 +7,6 @@ print("Pass in IP" if ip >= 33 else "Fail in IP")
 print("Pass in IP LAB" if ipLab >= 33 else "Fail in IP LAB")
 
 overall = (english + ip + ipLab)/3
-print("Pass Overall" if overall >= 40 else "Fail Overall")
+print("Pass Overall" if overall >= 40 and english>=33 and ip >= 33 and ipLab >= 33
+      else "Fail Overall")
+
