@@ -1,4 +1,6 @@
 '''
+Basic method to find the area of Triangle--->
+
 base = int(input("Enter the base: "))
 height = int(input("Enter the height: "))
 
@@ -9,7 +11,7 @@ print("The area of Triangle is: ", area)
 class Triangle:
     # base = "" not needed to declare here
     # height = ""
-    
+
     def __init__ (self, base, height):
         self.base = base
         self.height = height
