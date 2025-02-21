@@ -25,7 +25,7 @@ T2 = Triangle(20, 30)
 T1.display()
 T2.display()
 '''
-# Method 3:
+''' # Method 3:
 class Shape:
     def __init__ (self, dim1, dim2):
         self.dim1 = dim1
@@ -48,3 +48,26 @@ R = Rectangle(10, 20)
 
 print("Area of Triangle: ", T.area())
 print("Area of Rectangle: ", R.area())
+'''
+Method 4:
+from abc import ABC,abstractmethod
+class Shape(ABC):
+    def __init__ (self, dim1, dim2):
+        self.dim1 = dim1
+        self.dim2 = dim2
+
+    @abstractmethod
+    def area(self):
+        # this is a abstract method that must be overridden in a subclass
+        pass # this is a null statement
+
+class Triangle(Shape):
+    def area(self):
+        return 0.5 * self.dim1 * self.dim2
+
+# objects can't be created for abstract class
+# S = Shape(10, 20)
+# S.area()
+
+T = Triangle(10, 20)
+print("Area of Triangle: ", T.area())
