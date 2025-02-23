@@ -7,7 +7,7 @@ class Calculator:
         print(num ** 2)
         print(num ** 3)
         print(num ** 0.5)
-    @staticmethod
+    @staticmethod # This method can be called without creating an object of the class
     def greet():
         print("Hello")
 
