@@ -6,9 +6,8 @@ class Pet(Animals):
 
 class Dog(Pet):
     print("This is a dog")
-
-    def bark(self):
+    @staticmethod
+    def bark():
         print("Woof! Woof !")
 
-tommy = Dog()
-tommy.bark()
+Dog.bark()
