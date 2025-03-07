@@ -9,6 +9,8 @@ class Vector:
         return self.x * other.x + self.y * other.y + self.z * other.z
     def __str__(self):
         return f"Vector({self.x}, {self.y}, {self.z})"
+    def __len__(self):
+        return 3
 
 v1 = Vector(1, 2, 3)
 v2 = Vector(4, 5, 6)
@@ -18,3 +20,5 @@ print(v1 * v2)
 
 print(v1 + v3)
 print(v1 * v3)
+
+print(len(v1))
