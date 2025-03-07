@@ -1,9 +1,10 @@
-class Money:
-    m = 300
+class Person:
+    def __init__(self, name):
+        self.__name = name # this is a private variable
 
-    @classmethod
-    def add_money(cls, change_money):
-        cls.m = change_money # this will change the value of m
+    @property
+    def name(self):
+        return self.__name # this is a getter method
 
-new_money = Money.add_money(500)
-print(Money.m)
+p = Person("Ahnaf")
+print(p.name) # used the getter method to get the private name variable
