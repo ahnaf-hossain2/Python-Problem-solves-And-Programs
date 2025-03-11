@@ -1,8 +1,9 @@
-a= 89 # this is a global variable
+l = [1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10]
+# index = 0
+# for i in l:
+#     print(f"The item number at index {index} is {i}")
+#     index += 1
 
-def fun():
-    global a # this will help to use the global variable inside the function
-    # without the global keyword, this will create a new local variable a
-    a = 8 # now the value of a will be 8
-    print(a)
-fun()
+# This can be simplified using enumerate function
+for index, item in enumerate(l):
+    print(f"The item number at index {index} is {item}")
