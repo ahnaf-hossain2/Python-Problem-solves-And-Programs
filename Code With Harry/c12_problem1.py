@@ -1,4 +1,11 @@
-l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-squaredlist = [i**2 for i in l if i % 2 == 0]
-print("Squared even numbers in the list are: ", squaredlist)
+try:
+    with (
+        open("Python-Problem-solves-And-Programs/Code With Harry/this.txt", "r") as f1,
+        open("Python-Problem-solves-And-Programs/Code With Harry/that.txt", "r") as f2,
+    ):
+        content1 = f1.read()
+        content2 = f2.read()
+        print(content1)
+        print(content2)
+except Exception as e:
+    print(e)
