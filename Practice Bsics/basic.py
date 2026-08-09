@@ -88,4 +88,4 @@ cars = ["BMW", "Audi", "Ferrari", "Toyota", "Honda"]
 # cars.pop(1) #removes index 1 item
 # cars.pop() #removes last item
 # del cars # completly deletes cars list
-# cars.clear # clears the list contents but the list stays
+# cars.clear # clears the list contents but the list stay
