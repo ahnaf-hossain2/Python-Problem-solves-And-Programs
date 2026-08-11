@@ -89,3 +89,12 @@ cars = ["BMW", "Audi", "Ferrari", "Toyota", "Honda"]
 # cars.pop() #removes last item
 # del cars # completly deletes cars list
 # cars.clear # clears the list contents but the list stay
+
+# numbers = [1,2,3,4,5,6,6,7,8]
+# for i in numbers:
+#     print(i)
+
+# i = 0
+# while i < len(numbers):
+#     print(numbers[i])
+#     i+=1
