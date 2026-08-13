@@ -110,3 +110,16 @@ Fruits = ["mango", "jack fruit", "Apple"]
 
 mylist = Fruits.copy() # Copies the Fruits list. Without copy this will just be a refference to Fruits list. And changes in my list will automatically be changed in Fruits.
 
+"""
+nums = [11, 12, 13, 15]
+
+# Normal Way to print list:
+for i in nums:
+    print(i)
+
+
+# Also another way to print list:
+for i in range(len(nums)):
+    print(nums[i])
+"""
+
