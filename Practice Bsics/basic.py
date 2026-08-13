@@ -98,3 +98,15 @@ cars = ["BMW", "Audi", "Ferrari", "Toyota", "Honda"]
 # while i < len(numbers):
 #     print(numbers[i])
 #     i+=1
+
+Fruits = ["mango", "jack fruit", "Apple"]
+# # newlist = [x.upper() for x in Fruits]
+# # print( newlist )
+# Fruits.sort() # This will sort alphabetically # Also it sorts all capital letters first
+# Fruits.sort(reverse = True) # Sort decending
+
+# numbers = [4,2,5,2,8,5,3,9]
+# numbers.sort() # This will sort numerically
+
+mylist = Fruits.copy() # Copies the Fruits list. Without copy this will just be a refference to Fruits list. And changes in my list will automatically be changed in Fruits.
+
