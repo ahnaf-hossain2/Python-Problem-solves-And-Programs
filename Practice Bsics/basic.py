@@ -123,3 +123,31 @@ for i in range(len(nums)):
     print(nums[i])
 """
 
+# Dictionary
+# Student = {
+#     "Name": "Ahnaf",
+#     "ID": 57370,
+#     "University": "AIUB",
+#     5: 0,
+#     "Subjecs": ["Eng", "C#", "Python"]
+# }
+
+# Student.pop(5) # This will remove the key 5
+# Student.popitem() # This will remove the last key
+# del Student #This will delete the dictionary
+
+# Student["Religion"] = "Islam"
+# x = Student.items() # The items() method will return each item in a dictionary, as tuples in a list.
+# print(x)
+# Student["ID"] = 8888
+# print(x) # updated output with changed value of ID
+# print(Student["Name"])
+# print(Student)
+
+# Student_1 = dict(name = "Ahnaf", ID = 57370)
+# print(Student_1["name"])
+
+# d = {}
+# d[1] = 55
+# d[5] = 99
+# print(d)
