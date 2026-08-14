@@ -8,6 +8,7 @@ class Solution:
 
 """
 # Not completed yet. There are errors. Will fix it later tomorrow. By writing down the problem in notebook.
+# Need to use hash map
 nums = [2,7,11,15]
 target = 9
 
