@@ -34,3 +34,25 @@ colors = ("red", "green", "blue", "yellow")
 print(colors[1], colors[3])
 print(len(colors))
 print()
+
+"""
+List + Loop
+Use a for loop to print every number in a list
+"""
+
+# will loop the numbers list from above:
+for i in numbers:
+    print(i)
+print()
+
+"""
+List + Sum
+Calculate and print the total without using sum().
+"""
+
+sum = 0
+for i in numbers:
+    sum = sum+i
+print(sum)
+
+print()
