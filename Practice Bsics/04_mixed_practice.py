@@ -76,5 +76,5 @@ print(avg(student))
 print()
 
 """
-
+ 
 """
