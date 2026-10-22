@@ -73,3 +73,8 @@ student = {
 }
 
 print(avg(student))
+print()
+
+"""
+
+"""
