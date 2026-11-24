@@ -1,0 +1,1 @@
+print(Marks[1:5])
