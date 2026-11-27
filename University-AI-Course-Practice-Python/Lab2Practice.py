@@ -37,8 +37,56 @@
 
 # Function:
 
-def greeting(name):
-    return f"Hello {name} how are you ?"
+# def greeting(name):
+#     return f"Hello {name} how are you ?"
 
-print(greeting("Ahnaf"))
+# print(greeting("Ahnaf"))
 
+
+# x = [22.4,55.6,77.8]
+# y=[]
+
+# for i in x:
+#     y.append(i)
+
+# print(y)
+
+# def incremetList(l3):
+#     l2=[]
+#     for i in l3:
+#         l2.append(i+4)
+#     return l2
+
+# l1 = [1,2,3,4,5]
+# print(incremetList(l1))
+
+
+# def adissioList(l3,l4):
+#     sum = 0
+#     for i in range(len(l3)):
+#         sum = sum + (l3[i]+l4[i])
+#     return sum
+
+# l1 = [1,2,3,4,5]
+# l4 = [1,2,3,4,5]
+# print(adissioList(l1,l4))
+
+import math
+
+def dotProduct(A,B):
+    sum = 0
+    for i in range(len(A)):
+        sum = sum+(A[i]*B[i])
+    return sum
+
+def magitude(A):
+    sum = 0
+    for i in range(len(A)):
+        sum = sum + A[i]**2
+    magitude = math.squrt(sum)
+    return magitude
+
+A = [2,3]
+B = [5,6]
+# print(dotProduct(A,B))
+print(magitude(A))
