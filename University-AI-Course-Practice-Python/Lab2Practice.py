@@ -79,14 +79,18 @@ def dotProduct(A,B):
         sum = sum+(A[i]*B[i])
     return sum
 
-def magitude(A):
+def magnitude(A):
     sum = 0
     for i in range(len(A)):
         sum = sum + A[i]**2
-    magitude = math.squrt(sum)
-    return magitude
+    magnitude = math.sqrt(sum)
+    return magnitude
+
+def angle(A,B):
+    return math.acos(dotProduct(A,B)/(magnitude(A)*magnitude(B)))
 
 A = [2,3]
 B = [5,6]
 # print(dotProduct(A,B))
-print(magitude(A))
+# print(magnitude(A))
+print(angle(A,B))
